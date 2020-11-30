@@ -1220,7 +1220,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Frequently Asked Questions
+# Seção Produção
 --------------------------------------------------------------*/
 .faq {
   background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
@@ -1264,6 +1264,11 @@ section {
   font-weight: 500;
   padding: 0 30px;
   outline: none;
+  margin-left: -3rem;
+}
+
+.faq .faq-list p {
+  margin-left: -1rem;
 }
 
 .faq .faq-list .icon-help {

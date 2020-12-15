@@ -1235,17 +1235,18 @@ section {
 /*--------------------------------------------------------------
 # Seção Produção
 --------------------------------------------------------------*/
-.faq {
+/* COR DE FUNDO DA SECÇÃO */
+/* .faq {
   background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
-}
+} */
 
 .faq .section-title h2,
 .faq .section-title p {
-  color: #fff;
+  color: #444444;
 }
 
 .faq .section-title h2::after {
-  background: rgba(255, 255, 255, 0.6);
+  background: #5846f9;
 }
 
 .faq .faq-list {
@@ -1263,7 +1264,7 @@ section {
 
 .faq .faq-list li {
   padding: 30px;
-  background: #fff;
+  background: #5846f9c7;
   border-radius: 5px;
   position: relative;
 }
@@ -1310,11 +1311,11 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #2c4964;
+  color: white;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #5846f9;
+  color: #2c4964;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1332,7 +1333,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Contact
+# Contato
 --------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;

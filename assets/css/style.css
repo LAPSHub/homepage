@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #5846f9;
+  color: black;
 }
 
 a:hover {
-  color: #8577fb;
+  color: white;
   text-decoration: none;
 }
 
@@ -1264,7 +1264,7 @@ section {
 
 .faq .faq-list li {
   padding: 30px;
-  background: #5846f9c7;
+  background: #7b97d8;
   border-radius: 5px;
   position: relative;
 }
@@ -1315,7 +1315,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #2c4964;
+  color: black;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1609,11 +1609,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(
-      45deg,
-      rgba(86, 58, 250, 0.9) 0%,
-      rgba(116, 15, 214, 0.9) 100%
-    ),
+  background: linear-gradient(45deg, #2946f9 0%, #7b97d8 100%),
     url('../img/hero-bg.jpg') center center no-repeat;
   background-size: cover;
 }

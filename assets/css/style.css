@@ -875,7 +875,7 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .testimonial-item {
-  box-sizing: content-box;
+  box-sizing: border-box;
   min-height: 320px;
 }
 
@@ -885,8 +885,9 @@ section {
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
-  border: 6px solid #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border: 4px outset #8e65db;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+  float: left;
 }
 
 .testimonials .testimonial-item h3 {
@@ -923,14 +924,14 @@ section {
 
 .testimonials .testimonial-item p {
   font-style: italic;
-  margin: 0 15px 0 15px;
-  padding: 20px 20px 60px 20px;
+  margin: 10px 15px 0 50px;
+  padding: 20px 20px 40px 20px;
   background: #fff;
   position: relative;
   border-radius: 6px;
   position: relative;
   z-index: 1;
-  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .testimonials .owl-nav,
